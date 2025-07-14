@@ -1,0 +1,15 @@
+on: pull_request
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Upload test results as artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          path: ./snapshots/**/*.png
+          name: snapshots
+          compression-level: 0
+          retention-days: 1
