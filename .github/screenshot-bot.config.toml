@@ -1,5 +1,5 @@
 workflowWithTests = [
-    '.*e2e.*', # all workflows with sub-string "screenshot" in their names
+    '.*e2e.*',
 ]
 
 screenshotsDiffsPaths = [
