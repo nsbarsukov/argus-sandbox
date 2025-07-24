@@ -1,7 +1,7 @@
-name: screenshot-bot.yml
+# .github/workflows/screenshot-bot.yml
 on:
   workflow_run:
-    workflows: [E2E Results]
+    workflows: [E2E Results] # <--- TODO
     types: [requested, completed]
   pull_request:
     types: [closed]
@@ -9,6 +9,10 @@ on:
 jobs:
   awake-screenshot-bot:
     runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: write
+      pull-requests: write
     steps:
       - uses: taiga-family/argus@github-action
         env:
