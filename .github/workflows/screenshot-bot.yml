@@ -10,4 +10,4 @@ jobs:
   awake-screenshot-bot:
     runs-on: ubuntu-latest
     steps:
-      - uses: taiga-family/argus@dc8aeb28646132c7b7ba89084c04fa679a58c322
+      - uses: taiga-family/argus@github-action
