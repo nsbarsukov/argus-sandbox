@@ -11,3 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: taiga-family/argus@github-action
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
