@@ -1,0 +1,5 @@
+workflowWithTests: ['.*e2e.*']
+
+screenshotsDiffsPaths: [
+    '.*.diff.png'
+]
