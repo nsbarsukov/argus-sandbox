@@ -1,6 +1,7 @@
 name: screenshot-bot.yml
 on:
   workflow_run:
+    workflows: [E2E Results]
     types: [requested, completed]
   pull_request:
     types: [closed]
