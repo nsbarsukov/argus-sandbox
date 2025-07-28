@@ -1,4 +1,4 @@
-name: E2E Results
+name: ⚙️ E2E testing
 on: pull_request
 
 jobs:
@@ -15,5 +15,5 @@ jobs:
           compression-level: 0
           retention-days: 1
 
-      - run: sleep 5s
+      - run: sleep 3s
       - run: exit 1 # Use 1 to fail job
