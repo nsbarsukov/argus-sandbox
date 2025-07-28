@@ -15,5 +15,5 @@ jobs:
           compression-level: 0
           retention-days: 1
 
-      - run: sleep 3s
+      - run: sleep 4s
       - run: exit 1 # Use 1 to fail job
