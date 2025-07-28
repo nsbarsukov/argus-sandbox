@@ -1,7 +1,7 @@
 # .github/workflows/screenshot-bot.yml
 on:
   workflow_run:
-    workflows: [E2E Results] # <--- TODO
+    workflows: [⚙️ E2E testing]
     types: [requested, completed]
   pull_request:
     types: [closed]

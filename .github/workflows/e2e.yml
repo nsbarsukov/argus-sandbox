@@ -1,4 +1,4 @@
-name: E2E Results
+name: ⚙️ E2E testing
 on: pull_request
 
 jobs:
