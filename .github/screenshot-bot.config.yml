@@ -1,3 +1,5 @@
-screenshotsDiffsPaths: [
+workflows: ['.*e2e.*']
+
+diff-paths: [
     '.*.diff.png'
 ]
